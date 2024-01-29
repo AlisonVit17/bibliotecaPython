@@ -1,6 +1,6 @@
 # bibliotecaPython
 
-Estes scripts Python bibliotecaMagalu e bibliotecaMercadeLivre permitem realizar buscas por produtos na Magazine Luiza e no Mercado Livre, filtrando por nome e preço máximo desejado. Utiliza a biblioteca BeautifulSoup para fazer o parsing das respectivas páginas HTML dos sites.
+Estes scripts Python bibliotecaMagalu e bibliotecaMercadoLivre permitem realizar buscas por produtos na Magazine Luiza e no Mercado Livre, filtrando por nome e preço máximo desejado. Utiliza a biblioteca BeautifulSoup para fazer o parsing das respectivas páginas HTML dos sites.
 
 # Como Usar:
 
