@@ -26,11 +26,15 @@ Estes scripts Python bibliotecaMagalu e bibliotecaMercadeLivre permitem realizar
 # Exemplo de Uso:
 
 from bs4 import BeautifulSoup
+
 import requests
+
 from bibliotecaMercadoLivre import buscarNoMercadoLivre
 
 nomeBusca = "smartphone"
+
 valorBusca = 1500.00
+
 lista_resultados = buscarNoMercadoLivre(nomeBusca, valorBusca)
 
 for i, produto in enumerate(lista_resultados, start=1):
