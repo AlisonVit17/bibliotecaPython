@@ -5,19 +5,22 @@ Estes scripts Python bibliotecaMagalu e bibliotecaMercadeLivre permitem realizar
 # Como Usar:
 
 1 - Clone o repositório para o seu ambiente local:
+        
         -> git clone https://github.com/AlisonVit17/bibliotecaPython.git
         -> cd bibliotecaPython
         
 2 - Instale as dependências necessárias:
+       
         -> pip install BeautifulSoap
         -> pip install Requests
 
 3 - Execute o script:
+        
         -> python3 bibliotecaMercadoLivre.py
 
-4. Siga as instruções fornecidas para inserir o título da busca e o preço máximo.
+4 - Siga as instruções fornecidas para inserir o título da busca e o preço máximo.
 
-5. Os resultados da busca serão exibidos, mostrando links e preços dos produtos que atendem aos critérios especificados.
+5 - Os resultados da busca serão exibidos, mostrando links e preços dos produtos que atendem aos critérios especificados.
 
 
 # Exemplo de Uso:
