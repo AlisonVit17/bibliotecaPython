@@ -29,7 +29,7 @@ from bs4 import BeautifulSoup
 
 import requests
 
-from bibliotecaMercadoLivre import buscarNoMercadoLivre
+from bibliotecaPython import bibliotecaMercadoLivre
 
 nomeBusca = "smartphone"
 
