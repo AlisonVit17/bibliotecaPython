@@ -5,7 +5,7 @@ Estes scripts Python bibliotecaMagalu e bibliotecaMercadeLivre permitem realizar
 Como Usar:
 
 1 - Clone o repositório para o seu ambiente local:
-        -> git clone https://github.com/seu-usuario/busca-mercado-livre.git
+        -> git clone https://github.com/seu-usuario/bibliotecaPython.git
         -> cd bibliotecaPython
         
 2 - Instale as dependências necessárias:
