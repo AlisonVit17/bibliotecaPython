@@ -6,17 +6,17 @@ Estes scripts Python bibliotecaMagalu e bibliotecaMercadeLivre permitem realizar
 
 1 - Clone o repositório para o seu ambiente local:
         
-        -> git clone https://github.com/AlisonVit17/bibliotecaPython.git
-        -> cd bibliotecaPython
+         git clone https://github.com/AlisonVit17/bibliotecaPython.git
+         cd bibliotecaPython
         
 2 - Instale as dependências necessárias:
        
-        -> pip install BeautifulSoap
-        -> pip install Requests
+         pip install BeautifulSoap
+         pip install Requests
 
 3 - Execute o script:
         
-        -> python3 bibliotecaMercadoLivre.py
+         python3 bibliotecaMercadoLivre.py
 
 4 - Siga as instruções fornecidas para inserir o título da busca e o preço máximo.
 
