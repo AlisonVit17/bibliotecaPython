@@ -29,7 +29,7 @@ def buscarNaMagalu(nomeDaBusca, precoBusca):
     -> nomeDaBusca = input('Insira o que você busca: ')
     -> precoBusca = float(input('Insira o preço que não pode ser ultrapassado: '))
     -> retorno = buscarNaMagalu(nomeDaBusca, precoBusca)
-    
+
 
     Nota:
     Certifique-se de ter as bibliotecas `requests` e `BeautifulSoup` instaladas para utilizar esta função.
