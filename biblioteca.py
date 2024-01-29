@@ -36,6 +36,7 @@ def buscarNaMagalu(nomeDaBusca, precoBusca):
 
     Dica:
     Considere utilizar ambientes virtuais para isolar as dependências deste script de outros projetos Python.
+    
     """
 
     #Importando o link:
