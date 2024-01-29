@@ -24,18 +24,21 @@ def buscarNaMagalu(nomeDaBusca, precoBusca):
     6. Retorna uma lista de tuplas com links e preços dos produtos que atendem aos critérios.
 
     Exemplo de Uso:
-    -> python3 biblioteca.py
-    # Início, só para pegar os valores:
-    -> nomeDaBusca = input('Insira o que você busca: ')
-    -> precoBusca = float(input('Insira o preço que não pode ser ultrapassado: '))
+    -> python3 bibliotecaMagalu.py
+    -> nomeBusca = "notebook"
+    -> valorBusca = 3500.00
     -> retorno = buscarNaMagalu(nomeDaBusca, precoBusca)
+
+    Detalhes:
+   - Utiliza a biblioteca BeautifulSoup para fazer o parsing da página HTML do Mercado Livre.
+   - Os links e preços dos produtos são extraídos das tags HTML correspondentes.
+   - Os resultados são filtrados com base no valor máximo especificado.
+   - Retorna uma lista de produtos que atendem aos critérios de busca.
 
 
     Nota:
     Certifique-se de ter as bibliotecas `requests` e `BeautifulSoup` instaladas para utilizar esta função.
 
-    Dica:
-    Considere utilizar ambientes virtuais para isolar as dependências deste script de outros projetos Python.
     """
 
     #Importando o link:

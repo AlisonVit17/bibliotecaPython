@@ -2,6 +2,43 @@ import requests
 from bs4 import BeautifulSoup
 
 def buscarNoMercadoLivre(nomeBusca, valorBusca):
+    """
+   Realiza uma busca por produtos no Mercado Livre, filtrando por nome e valor máximo.
+
+   Parâmetros:
+   - nomeBusca (str): O título da busca para os produtos no Mercado Livre.
+   - valorBusca (float): O preço máximo que a busca deve considerar.
+
+   Retorna:
+   Uma lista de tuplas contendo links e preços dos produtos encontrados.
+   Cada tupla tem a seguinte estrutura: (link_do_produto, preco_do_produto).
+
+    Funcionamento:
+    1. Constrói o link de busca no site da Magazine Luiza com base no nome fornecido.
+    2. Realiza uma requisição HTTP para obter o conteúdo da página.
+    3. Utiliza a biblioteca BeautifulSoup para analisar o HTML da página e extrair informações.
+    4. Procura por elementos HTML específicos que contêm informações sobre produtos e preços.
+    5. Filtra os resultados com base no preço máximo fornecido.
+    6. Retorna uma lista de tuplas com links e preços dos produtos que atendem aos critérios.
+
+   Exemplo de uso:
+   python3 bibliotecaMercadoLivre.py
+   nomeBusca = "smartphone"
+   valorBusca = 1500.00
+   lista_resultados = buscarNoMercadoLivre(nomeBusca, valorBusca)
+
+
+   Detalhes:
+   - Utiliza a biblioteca BeautifulSoup para fazer o parsing da página HTML do Mercado Livre.
+   - Os links e preços dos produtos são extraídos das tags HTML correspondentes.
+   - Os resultados são filtrados com base no valor máximo especificado.
+   - Retorna uma lista de produtos que atendem aos critérios de busca.
+
+   Nota:
+    Certifique-se de ter as bibliotecas `requests` e `BeautifulSoup` instaladas para utilizar esta função.
+
+   """
+
     link = 'https://lista.mercadolivre.com.br/' + nomeBusca
 
     requisicao = requests.get(link) #Importação do link
@@ -40,11 +77,11 @@ def buscarNoMercadoLivre(nomeBusca, valorBusca):
 
     return listaRetorno
 
-'''
+
 nomeBusca = input('Insira o titulo de sua busca: ')
 valorBusca = float(input('Informe o preço máximo que a busca deve ter: '))
 
 lista = buscarNoMercadoLivre(nomeBusca, valorBusca)
 for i in lista:
     print(i)
-'''
+
