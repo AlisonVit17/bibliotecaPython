@@ -23,12 +23,6 @@ def buscarNaMagalu(nomeDaBusca, precoBusca):
     5. Filtra os resultados com base no preço máximo fornecido.
     6. Retorna uma lista de tuplas com links e preços dos produtos que atendem aos critérios.
 
-    Exemplo de Uso:
-    -> python3 bibliotecaMagalu.py
-    -> nomeBusca = "notebook"
-    -> valorBusca = 3500.00
-    -> retorno = buscarNaMagalu(nomeDaBusca, precoBusca)
-
     Detalhes:
    - Utiliza a biblioteca BeautifulSoup para fazer o parsing da página HTML do Mercado Livre.
    - Os links e preços dos produtos são extraídos das tags HTML correspondentes.

@@ -21,13 +21,6 @@ def buscarNoMercadoLivre(nomeBusca, valorBusca):
     5. Filtra os resultados com base no preço máximo fornecido.
     6. Retorna uma lista de tuplas com links e preços dos produtos que atendem aos critérios.
 
-   Exemplo de uso:
-   python3 bibliotecaMercadoLivre.py
-   nomeBusca = "smartphone"
-   valorBusca = 1500.00
-   lista_resultados = buscarNoMercadoLivre(nomeBusca, valorBusca)
-
-
    Detalhes:
    - Utiliza a biblioteca BeautifulSoup para fazer o parsing da página HTML do Mercado Livre.
    - Os links e preços dos produtos são extraídos das tags HTML correspondentes.
