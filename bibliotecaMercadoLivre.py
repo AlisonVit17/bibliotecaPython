@@ -71,10 +71,10 @@ def buscarNoMercadoLivre(nomeBusca, valorBusca):
     return listaRetorno
 
 
-nomeBusca = input('Insira o titulo de sua busca: ')
-valorBusca = float(input('Informe o preço máximo que a busca deve ter: '))
+#nomeBusca = input('Insira o titulo de sua busca: ')
+#valorBusca = float(input('Informe o preço máximo que a busca deve ter: '))
 
-lista = buscarNoMercadoLivre(nomeBusca, valorBusca)
-for i in lista:
-    print(i)
+#lista = buscarNoMercadoLivre(nomeBusca, valorBusca)
+#for i in lista:
+#    print(i)
 
